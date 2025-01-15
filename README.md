@@ -5,7 +5,7 @@
 ```lua
 local Options = {
     Keybind = 'Home', --> Keybind para mostrar/esconder a UI, mais informações sobre KeyCode: https://create.roblox.com/docs/reference/engine/enums/KeyCode
-    Tempo = 2.5, --> Tempo para enviar mensagem.
+    Tempo = 1, --> Tempo para enviar mensagem (alterado para 1 segundo).
     Rainbow = false, --> Deixar a UI mais colorida (true/false)
 
     Language = {
@@ -14,4 +14,3 @@ local Options = {
     },
 };
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Zv-yz/AutoJJs/main/Main.lua'))(Options);
-```
